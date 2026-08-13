@@ -115,7 +115,7 @@ header.nav{
 .nav-links a{ position:relative; padding-bottom:3px; }
 .nav-links a:hover{ color:var(--terracotta-deep); }
 @media (max-width:720px){
-  .nav-links{ gap:16px; font-size:13px; overflow-x:auto; }
+  .nav-links{ display:none; }
   .nav-inner{ padding:14px 20px; }
 }
 
